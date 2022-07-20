@@ -22,8 +22,7 @@ The challanges that were faced while doing a feasibility study for the same:
 
 ## Requests
 
-### SetExpressCheckout [SetExpressCheckout documentation ](https://developer.paypal.com/api/nvp-soap/set-express-checkout-nvp/)
-
+### SetExpressCheckout
 This method basically sets the transaction amount which in our case would be full amount.
 
 -  **Request:**
@@ -101,4 +100,14 @@ So we can send either of these values for this parameter:
 
 - **Request:**`['AUTHORIZATIONID', 'COMPLETETYPE', 'AMT', 'CURRENCYCODE', 'NOTE', 'INVNUM']`
         
-- **Response:** ` ['TRANSACTIONID', 'CURRENCYCODE', 'AMT', 'PAYMENTSTATUS', 'PENDINGREASON']`    
+- **Response:** ` ['TRANSACTIONID', 'CURRENCYCODE', 'AMT', 'PAYMENTSTATUS', 'PENDINGREASON']`
+
+
+
+## REFERENCES
+
+- [Set Express Checkout](https://developer.paypal.com/api/nvp-soap/set-express-checkout-nvp/)
+- [Do Express Checkout](https://developer.paypal.com/api/nvp-soap/do-express-checkout-payment-nvp/)
+- [Payment Type Fields- set-express-checkout](https://developer.paypal.com/api/nvp-soap/set-express-checkout-nvp/#link-paymentdetailstypefields)
+- [Do Auth](https://developer.paypal.com/api/nvp-soap/do-authorization-nvp/)
+- [Do Capture](https://developer.paypal.com/api/nvp-soap/do-capture-nvp/)
